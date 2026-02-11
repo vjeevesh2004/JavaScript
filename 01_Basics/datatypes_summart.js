@@ -33,4 +33,29 @@ const myFunction = function(){
 }
 
 // to detect the type of datatypes
+console.log(typeof(userEmail))
+
+// ******* MEMORY ********
+
+// Stack Memory(Primitive Data Type) & Heap Memory (Non-Primitive Data Type)
+
+// Stack Memory
+let myYoutubename = "heli"
+let myname = myYoutubename
+myname = "hello"
+console.log(myYoutubename);
+console.log(myname);
+
+// Heap Memory 
+
+let User1 = {
+    name: "abc", 
+    age: 12, 
+    upi: "user1@ybl"
+}
+
+console.log(User1);
+
+
+
 
